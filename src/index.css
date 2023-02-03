@@ -1,0 +1,68 @@
+.ant-select-selector {
+  background-color: #151f30!important;
+  color: #fff!important;
+  border-color: #151f30!important;
+}
+
+.ant-select-selection-placeholder {
+  color: #fff!important;
+}
+
+.anticon {
+  color: #fff!important;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.cell {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: table;
+}
+
+.select-border {
+  border-color: red!important;
+}
+
+.highlight {
+  border: 2px solid yellow;
+  animation-name:bckanim;
+  animation-fill-mode:forwards;
+  animation-duration:2s;
+  animation-delay:0s;
+}
+@keyframes bckanim {
+  0% {border-color:yellow;}
+  100% { border-color:transparent;}
+}
+
+.close-invite-modal {
+  color: #fff;
+  margin-top: 25px;
+}
+
+
+.like__btn {
+  padding: 7px 12px;
+  background: #0080ff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.dislike__btn {
+  background: #a31818;
+}
+
+.likeIcon {
+  padding: 0 7px 0 0;
+  font-size: 16px;
+}
